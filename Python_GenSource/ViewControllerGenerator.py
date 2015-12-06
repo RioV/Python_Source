@@ -319,7 +319,7 @@ m_file_body_template = 'm_file_body_template.m'
 list_command = sys.argv
 config_dictionary = None
 
-if len(list_command) == 3:
+if len(list_command) == 1:
     print('List command = {}'.format(list_command))
     config_dictionary = read_config_file()
     print(config_dictionary)
